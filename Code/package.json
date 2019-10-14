@@ -13,7 +13,11 @@
   "author": "Miguel Morais Guilherme Simão",
   "license": "ISC",
   "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
     "express": "^4.17.1",
-    "http-server": "^0.11.1"
+    "hbs": "^4.0.6",
+    "http-errors": "^1.7.3",
+    "mysql": "^2.17.1"
   }
 }
