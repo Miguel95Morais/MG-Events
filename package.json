@@ -1,7 +1,7 @@
 {
-  "name": "code",
+  "name": "mgevents-project",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
   "main": "app.js",
   "scripts": {
     "start": "node ./bin/www"
@@ -13,12 +13,18 @@
   "author": "Miguel Morais Guilherme Simão",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "cookie-parser": "^1.4.4",
     "debug": "^4.1.1",
     "express": "^4.17.1",
     "hbs": "^4.0.6",
     "http-errors": "^1.7.3",
+    "jquery": "^3.4.1",
+    "mongodb": "^3.3.4",
     "morgan": "^1.9.1",
-    "mysql": "^2.17.1"
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.4",
+    "owl.carousel": "^2.3.4",
+    "popper.js": "^1.16.0"
   }
 }

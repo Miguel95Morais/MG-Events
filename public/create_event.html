@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>MG Events-Create Events</title>
+<link rel="stylesheet" type="text/css" href="./CSS/style.css"/>
+<link rel="stylesheet" type="text/css" href="./CSS/style2.css"/>
+<script src="./JAVASCRIPT/resposive_menu.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="logo">
+        <a href="home_page.html"><img src=".//images/MG Events Logo.png" alt="logo"></a>
+    </div>
+<div class="navbar">
+
+<div class="icon-bar" onclick="Show()">
+    <i></i>
+    <i></i>
+    <i></i>
+</div>
+
+<ul id="nav-lists">
+    <li class="close"><span onclick="Hide()">×</span></li>
+    <li><a href="#">Próximos Eventos</a></li>
+    <li><a href="#">Log in</a></li>
+    <li><a href="#">Sign up</a></li>
+</ul>
+</div>
+</div>    
+</div>
+
+<div style="text-align:center"><form id="form"> 
+ <h2>Create an Event</h2>
+    Name of the event:<br>
+    <input type="text" name="event_name" size="100">
+    <br>
+    Address of the event:<br>
+    <input type="text" name="address_event"  size="100">
+    <br>
+    Place where the event will take place:<br>
+    <input type="text" name="place_event" size="100">
+    <br>
+    Event Description:<br>
+    <input type="text" name="event_description" size="100">
+    <br><br>
+    Event starts:
+    <input type="date" name="event_starts" size="34">
+    <input type="submit">
+    Event ends:
+    <input type="date" name="event_ends" size="34">
+    <input type="submit">
+    <br><br>
+    Images of the Event:<br>
+    <img src=".//images/1.png" alt="1" width="200" height="200">
+    <img src=".//images/2.png" alt="2" width="200" height="200">
+    <img src=".//images/3.png" alt="3" width="200" height="200">
+    <br>  
+    Artists playing:<br>
+    <input type="text" name="artists_playing" size="100">
+    <br>
+    Music Genres in Event:<br>
+    <input type="text" name="music_event" size="100">
+    <br><br> 
+    Tickets details:<br><br>
+    <div style="text-align:center"><form id="form"> 
+        Price:
+        <input type="text" name="price">
+        Maximum amount of purchasable tickets:
+        <input type="text" name="max_tickets">
+        <br><br>
+        Ticket Description:<br>
+        <input type="text" name="ticket_description" size="100">
+        <br><br>
+        Begginning of sales:
+        <input type="date" name="begginning_sales" size="34">
+        <input type="submit">
+        End of sales:
+        <input type="date" name="end_sales" size="34">
+        <input type="submit">
+    </form>   
+    <br><br><br>
+    </div> 
+    <button class="button">Confirm</button>
+    <button class="button button2">Cancel</button> 
+</form>
+</div>
+
+</body>
+</html>
+
+<!-- Write your comments here -->
